@@ -77,9 +77,17 @@ header{
 	cursor:pointer;
 }
 .navbar-light .navbar-brand {
-	color:#363636;		
+	color:#fff;		
 	height: auto;
+	font-weight: 600;
+	font-size: 30px;
 }
+
+.navbar-light .navbar-brand span {
+	color:#0B30E0;		
+	
+}
+
 .navbar-light .navbar-brand:hover {
  	color:#1F81BF;
 }
@@ -104,7 +112,6 @@ header{
 	/*display: table-cell;
 	vertical-align: middle;*/
 }
-
 
 
 

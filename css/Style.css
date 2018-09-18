@@ -10,18 +10,29 @@ body{
 header{
 	background-color: #252525;
 	padding: 20px 0;
-
 }
+
 
 #sec-carousel h2{
-	font-size: 32px;
+	font-size: 50px;
 	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: 700;
+	color: #fff;
 }
 
+#sec-carousel h2 span{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: 700;
+	color: #0B30E0;
+}
 
 #sec-carousel h1{
-	font-size: 60px;
-	font-weight:700;
+	font-size: 20px;
+	font-weight:300;
+	text-transform: uppercase;
 }
 
 
@@ -30,8 +41,9 @@ header{
 }
 
 .titulo{
-	font-size: 70px;
+	font-size: 30px;
 	font-weight: 800;
+	text-transform: uppercase;
 }
 
 
@@ -49,7 +61,9 @@ header{
 	transition: all ease-in-out 0.5s;
 }
 
-
+#sec-image h2{
+	padding-top: 25px;
+}
 
 #sec-image .info-texto h3{
 	color: #fff;
@@ -83,7 +97,6 @@ header{
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 20px;
-	
 	border: 3px solid #3498DB;
     text-align: center;
 	color: #000;
@@ -92,64 +105,36 @@ header{
 	
 }
 
-#sec-image h4{
-	font-size: 14px;
+#iconos h4{
+	font-size: 18px;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
-#sec-image p{
-	font-size: 12px;
+#iconos p{
+	font-size: 14px;
+	text-align: justify;
 	
 }
 
+#iconos .row{
+	margin-top: 20px;
+}
 
 footer{
 	background-color: #252525;
 	color: #777;
 	padding: 45px 0;
-	text-align: center;
+	text-align: inherit;
 }
 
-footer h3{
-	color: #fff;
-	font-weight: 700;
-	font-size: 26px;
-}
-footer h3 span{
-	color: #f54f15;
-}
 
-.redes{
-	margin: 45px 0;
-}
-.redes li{
-	display: inline-block;
-}
-.redes a {
-	width: 60px;
-	height: 60px;
-	line-height: 60px;
-	border: 2px solid #fff;
-	display: block;
-	border-radius: 100%;
-	color: #fff;
+footer .redes a {
+	font-size: 30px;
+	color: #5F5C5C;
 	text-decoration: none;
 }
 
-.redes a:hover{
-	background-color: #FFF;
-	color: #252525;
-	transition: all ease 0.3s;
-}
-
-footer p a{
-	color: #f54f15;
-	font-weight: 400;
-}
-
-footer p a:hover{
-	color: #f54f15;	
-}
 
 #sec-breadcrumb{
 	background-color: #f3f3f3;
@@ -229,7 +214,7 @@ footer p a:hover{
 
 /*corea*/
 .barra{
-	background-color: #1F16E5;
+	background-color: #3694da;
 	width: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -268,7 +253,7 @@ footer p a:hover{
 
 
 .redes a:hover {
-	background-color: #1F16E5;
+	background-color: #3694da;
 	color: #FFF;
 	transition: all ease 0.3s;
 	
@@ -277,8 +262,100 @@ footer p a:hover{
 .redes a{
 	border-radius: 300px;
 	margin: 20px;
-	color: #1F16E5;
+	color: #3694da;
 }
+
+
+
+
+.app-carousel {
+    padding: 0 6%;
+	margin-top: 50px;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+.owl-carousel .owl-item img{
+	width: inherit;
+}
+.app-carousel h4{
+	color: #FFF;
+	font-weight: 600;
+}
+.app-carousel h5{
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+
+#sec-carousel{
+	position: relative;
+	
+}
+
+#sec-testimonials {
+	background-image: url(../img/bg-testimonials.jpg);
+	background-repeat:repeat;
+	background-size: cover;
+	color: #FFF;
+	padding-bottom: 100px;
+	padding-top: 100px;
+		
+}
+
+#sec-testimonials h5{
+	
+	color: #FFF;
+		
+}
+
+#sec-counter {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #1e2629;
+	color: #FFF;
+	font-size: 28px;
+	
+}
+
+#sec-counter h2{
+	padding-top: 20px;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+#sec-counter p{
+	
+	font-size: 15px;
+
+}
+
+#sec-counter i {
+	color: #3694da;
+}
+
 
 
 /*Diseño para movil*/
