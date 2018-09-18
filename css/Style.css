@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,800');
+
+body{
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
+	color: #333;
+
+}
+
+header{
+	background-color: #252525;
+	padding: 20px 0;
+
+}
+
+#sec-carousel h2{
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+
+#sec-carousel h1{
+	font-size: 60px;
+	font-weight:700;
+}
+
+
+.espaciado{
+	margin: 50px;
+}
+
+.titulo{
+	font-size: 70px;
+	font-weight: 800;
+}
+
+
+#sec-image .info-texto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(52,152,219,0.80);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: all ease-in-out 0.5s;
+}
+
+
+
+#sec-image .info-texto h3{
+	color: #fff;
+	font-weight: 600;
+}
+
+#sec-image .info-clase:hover .info-texto{
+	opacity: 1;
+	transition: all ease-in-out 0.5s;
+}
+
+#sec-image .overlay{
+	position: relative;
+}
+
+#sec-image .bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.80);
+	top: 0;
+	left: 0;
+}
+
+.circulo{
+	background-color: transparent;
+	height:50px;
+	width: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	
+	border: 3px solid #3498DB;
+    text-align: center;
+	color: #000;
+	font-size: 20px;
+	position: absolute;
+	
+}
+
+#sec-image h4{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#sec-image p{
+	font-size: 12px;
+	
+}
+
+
+footer{
+	background-color: #252525;
+	color: #777;
+	padding: 45px 0;
+	text-align: center;
+}
+
+footer h3{
+	color: #fff;
+	font-weight: 700;
+	font-size: 26px;
+}
+footer h3 span{
+	color: #f54f15;
+}
+
+.redes{
+	margin: 45px 0;
+}
+.redes li{
+	display: inline-block;
+}
+.redes a {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	border: 2px solid #fff;
+	display: block;
+	border-radius: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+
+.redes a:hover{
+	background-color: #FFF;
+	color: #252525;
+	transition: all ease 0.3s;
+}
+
+footer p a{
+	color: #f54f15;
+	font-weight: 400;
+}
+
+footer p a:hover{
+	color: #f54f15;	
+}
+
+#sec-breadcrumb{
+	background-color: #f3f3f3;
+
+}
+
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+
+#sec-content{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+#sec-content h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+.letra-naranja{
+	color: #f54f15;
+	
+}
+
+
+#sec-content .font-weight-bold{
+	color:#333;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+
+.ocultar{
+	display: none;
+
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-area.sticky{
+    background-color: #252525!important;
+	
+}
+
+.back-to-top { 
+    text-align: center; 
+    background: rgba(0,0,0,0.40); 
+    color: #fff; 
+    display: none; 
+    width: 40px; height: 40px; line-height: 40px; 
+    font-family: "FontAwesome";
+    font-size: 35px; 
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px; 
+    -webkit-transition: all 0.5s ease; 
+    transition: all 0.5s ease; 
+    cursor: pointer; 
+    z-index: 9999; 
+}
+.back-to-top:hover { 
+    opacity: 1; 
+}
+.back-to-top:before{
+    content: "\f062";
+}
+
+/*corea*/
+.barra{
+	background-color: #1F16E5;
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+	margin-bottom: 30px;
+}
+
+#sec-team {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+#sec-team  h2{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#sec-team  h3{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.redes {
+	margin:25px 0;
+	
+	
+}
+
+.li {
+	align-content: center;
+}
+.redes li{
+	display: inline-block;
+	transition: all ease 0.3s;
+}
+
+
+.redes a:hover {
+	background-color: #1F16E5;
+	color: #FFF;
+	transition: all ease 0.3s;
+	
+}
+
+.redes a{
+	border-radius: 300px;
+	margin: 20px;
+	color: #1F16E5;
+}
+
+
+/*Diseño para movil*/
+@media (max-width: 480px){
+	.btn-naranja{
+		padding: 5px 10px;
+	}
+	
+	#sec-carousel .caption-center h2{
+		font-size: 20px;
+	}
+	
+	.btn-negro{
+		background-color: rgba(0,0,0,0.80);
+		color: #fff;
+	}
+	
+	#sec-mood h1 {
+		font-size: 50px;
+	}
+}
+
+/*Diseño tableta y móvil (xs y sm)*/
+@media (max-width:768px){
+	#sec-classes .info-texto{
+		opacity: 1;
+	}
+	#sec-classes article,
+	#sec-images article{
+		margin-top: 10px;
+	}
+}
+
+/*Diseño tableta (sm)*/
+@media (min-width:480px) and (max-width:768px){
+	
+}
+
+/*app carousel*/
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+.owl-carousel .owl-item img{
+	width: inherit;
+}
+
+.app-carousel h4{
+	color: #f54f15;
+	font-weight: 600;
+}
+
+.app-carousel h5{
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+#sec-carousel{
+	position: relative;
+	
+}
